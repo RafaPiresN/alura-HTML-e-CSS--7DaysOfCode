@@ -30,7 +30,7 @@
     color: var(--claro-cinza);
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .depoimentos {
         width: auto;
     }

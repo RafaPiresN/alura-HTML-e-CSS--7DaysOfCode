@@ -70,7 +70,7 @@ body {
     color: var(--claro-cinza);
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .rodape {
         width: auto;
         align-items: center;
