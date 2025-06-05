@@ -1,0 +1,88 @@
+.vagas {
+    text-align: center;
+    margin: 2em 3em;
+    padding: 6em 3em 3em 3em;
+}
+
+.vagas__subtitulo {
+    font-size: 1rem;
+    color: var(--botao-cor);
+    font-family: var(--fonte-principal);
+}
+
+.vagas__titulo {
+    padding: 0.7em 0;
+    font-size: 2.2rem;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+}
+
+.vagas__texto {
+    font-family: var(--fonte-principal);
+    color: var(--claro-cinza);
+    padding-bottom: 3em;
+    font-size: 1.3rem;
+}
+.vagas__imagem {
+    width: 100%;
+}
+
+.vagas__jobs {
+   text-align: start;
+   padding: 2em 15em;
+   margin: 0 2em;   
+}
+
+.jobs__lista {
+    list-style: none;
+}
+
+.jobs__titulo {
+    color: var(--botao-cor);
+    font-family: var(--fonte-principal);
+    padding: 1.5em 0 0.5em 0;
+}
+.jobs__subtitulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--cinza);
+    padding: 1em;
+}
+
+.jobs__texto {
+    display: flex;  
+    padding-top: 1em;  
+}
+.jobs__dados {
+    padding-top: 1em;
+}
+.jobs__paragrafo {
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--claro-cinza);
+}
+
+.jobs__info {
+    padding: 0.4em 0;
+    border: 0.05rem solid var(--claro-cinza);
+    border-radius: 10px;
+    margin: 1.5em 0;
+}
+
+@media screen and (max-width: 390px){
+    .vagas {
+        padding: 1em;
+        margin: 1em;    
+    }
+    .vagas__jobs{
+        padding: 1em;
+        margin: 0;
+    }
+    .jobs__titulo {
+        width: auto;
+    }
+    .jobs__paragrafo {
+        width: 40%;
+    }
+    
+}

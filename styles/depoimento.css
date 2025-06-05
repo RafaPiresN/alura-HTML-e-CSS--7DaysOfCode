@@ -1,0 +1,43 @@
+.depoimentos {
+    text-align: center;
+    margin: 3em;
+}
+
+.depoimentos__subtitulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--botao-cor);
+}
+.depoimentos__titulo {
+    font-size: 2.5em;
+    width: 60vw;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    margin: auto;
+    padding: 0.8em 0 1em 0;
+}
+
+.depoimentos__nome {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+    font-size: 1rem;
+    color: var(--cinza);
+}
+
+.depoimentos__paragrafo {
+    font-family: var(--fonte-principal);
+    color: var(--claro-cinza);
+}
+
+@media screen and (max-width: 390px){
+    .depoimentos {
+        width: auto;
+    }
+    .depoimentos__titulo {
+        padding: 1em 0;
+        margin: 0;
+        width: auto;
+        font-size: 1.7rem;
+    }
+}

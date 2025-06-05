@@ -1,0 +1,88 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/apresentacao.css);
+@import url(./styles/metricas.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimento.css);
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-principal: "Inter";
+    --cinza: #3b3a38;
+    --claro-cinza: #5e5b57;
+    --cor-de-fundo:  #e0dac8;
+    --botao-cor: #B17457;
+    --cor-clara: #FAF7F0;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.rodape {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    color: var(--cinza);
+    padding-top: 3em;
+}
+
+.rodape__subtitulo {
+    padding: 2em 0;
+    font-family: var(--fonte-principal);
+    color: var(--claro-cinza);
+}
+
+.rodape__email {
+    width: 13vw;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid var(--claro-cinza);
+}
+.rodape__salvar {
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid var(--botao-cor);
+    background-color: var(--botao-cor);
+    color: var(--cor-clara);
+    text-decoration: none;
+}
+.rodape__salvar:hover {
+    background-color: var(--claro-cinza);
+    color: var(--botao-cor);
+}
+
+.rodape__texto {
+    padding: 2em 0;
+    font-family: var(--fonte-principal);
+    color: var(--claro-cinza);
+}
+
+@media screen and (max-width: 390px){
+    .rodape {
+        width: auto;
+        align-items: center;
+    }
+    .rodape__titulo {
+        padding: 0;
+        margin: 0;
+    }
+    .rodape__subtitulo {
+        width: 70%;
+    }
+    .rodape__email {
+        width: 40vw;
+    }
+}
