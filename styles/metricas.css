@@ -36,7 +36,7 @@
     color: var(--claro-cinza);
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 400px){
     .dados {
         width: auto;
     }

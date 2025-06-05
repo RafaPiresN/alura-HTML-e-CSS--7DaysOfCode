@@ -69,7 +69,7 @@
     margin: 1.5em 0;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 400px){
     .vagas {
         padding: 1em;
         margin: 1em;    
