@@ -60,7 +60,7 @@
         display: none;
     }
     .cabecalho {
-        width: 100%;
+        width: auto;
         padding: 1em;
         background-position: 1em;
         text-align: center;
