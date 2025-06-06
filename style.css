@@ -71,6 +71,9 @@ body {
 }
 
 @media screen and (max-width: 450px){
+    body {
+        width: auto;
+    }
     .rodape {
         width: auto;
         align-items: center;
